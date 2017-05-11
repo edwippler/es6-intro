@@ -1,3 +1,5 @@
+// NOTE: Practice expressions from syntax portion of course.
+
 let updateFunctions = []; //'let' removes hoisting to reduce issues with global variables
 for(let i =0; i<2; i++){
   updateFunctions.push(function(){return i;});
